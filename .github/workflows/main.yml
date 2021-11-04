@@ -27,16 +27,16 @@ jobs:
 
       #install dependency 
       - name: install Dependencies
-        run: nmp install
+        run: npm install
 
       #linting
       - name: Linting
-        run: nmp run lint
+        run: npm run lint
         
       #testing
       - name: testing
-        run: nmp run test 
+        run: npm run test 
 
       #build
       - name: testing
-        run: nmp run build
+        run: npm run build
